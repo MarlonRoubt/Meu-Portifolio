@@ -1,7 +1,6 @@
-// https://api.github.com/users/<username>>/repos
 let GITHUB_URL =  "https://api.github.com/users"
-let BEARER_TOKEN = "";
-let USERNAME = "MarlonRoubt";
+let BEARER_TOKEN = process.env.BEARER_TOKEN;
+let USERNAME = process.env.USERNAME;
 
 let divProjetos = document.getElementById("projetos");
 
