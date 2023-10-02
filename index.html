@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu portifólio.</title>
     <!--GLOBAL e MOBILECSS-->
-    <link rel="stylesheet" href="assets/style/mediaqueries.css">
-    <link rel="stylesheet" href="assets/style/mobile.css">
+    <link rel="stylesheet" href="styles/mediaqueries.css">
+    <link rel="stylesheet" href="styles/mobile.css">
     <!--NORMALIZE css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
@@ -14,31 +14,57 @@
 <body>
 
     <header class="header">
-        <a href="#" class="logo">Portifólio</a>
+        <a href="#" class="logo">ROUBT, Marlon.</a>
         
-        <!--<div id="menu"><box-icon name='menu'></box-icon></div>-->
+        <div id="menu"><box-icon name='menu'></box-icon></div>
 
         <nav class="navbar">
             <a href="#">HOME</a>
             <a href="#">SOBRE</a>
-            <a href="#">PROJETOS</a>
+            <a href="/pages/projetos.html">PROJETOS</a>
             <a href="#">CONTATO</a>
         </nav>
 
         <div class="redesSociais">
-            <a href="#"><box-icon type='logo' name='linkedin-square'></box-icon></a>
-            <a href="#"><box-icon type='logo' name='github'></box-icon></a>
+            <a href="https://www.linkedin.com/in/marlonroubt/" target="_blank">
+                <box-icon name='linkedin-square' type='logo' animation='flashing'></box-icon>
+            </a>
+            <a href="https://github.com/MarlonRoubt?tab=repositories" target="_blank">
+                <box-icon name='github' type='logo' animation='flashing'></box-icon>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=5521989056757">
+                <box-icon name='whatsapp' type='logo' animation='flashing' ></box-icon>
+            </a>
         </div>
     </header>
 
-    <section class="home">
-        <div class="home-content">
-            <h1>Olá, eu sou o <br> <span>Marlon Roubt</span></h1>
+    <main>
+        <div class="main-container">
+            <section class="home" id="home">
+                <div class="conteudoInicial">
+                    <h1>Olá, sou <span>Marlon Roubt</span></h1>
+                    <div class="textoAnimacao">
+                        <h3>Frontend developer</h3>
+                    </div>
+                </div>
+                <p>Estou migrando para a área de programação e estou atrás da primeira oportunidade de estágio</p>
+                <div class="caixaBotao">
+                    <a href="" class="botao">
+                        Sobre mim
+                    </a>
+                </div>
+            </section>
+            <div>
+                <a href="https://www.linkedin.com/in/marlonroubt/" target="_blank">
+                    <img class="fotoPerfil" src="assets/imagens/107813077.jpeg" alt="Marlon Roubt">
+                </a>
+            </div>
         </div>
-    </section>
+    </main>
 
 
-    <script src="assets/js/main.js"></script>
+    <script src="scripts/main.js"></script>
+    <!--BOX ICONS-->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
