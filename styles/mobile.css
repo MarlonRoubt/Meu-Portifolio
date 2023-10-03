@@ -258,3 +258,60 @@ img {
     align-items: center;
 }
 
+.contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.contato h2.head {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.campDeEntrada {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Estilizar o botão de envio */
+input[type="submit"] {
+    background-color: #1C99E0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Adicione a transição do box-shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adicione o box-shadow */
+}
+
+input[type="submit"]:hover {
+    background-color: #1477B9;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Aumente a elevação do box-shadow no hover */
+}
+
