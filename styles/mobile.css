@@ -15,11 +15,10 @@
 
 
 body {
-    background-image: linear-gradient(to bottom, #E8F1F3, #1C99E0, #247BA0, #016494, #14293D);
+    background: #1C99E0;
     margin: 0; /* Remover a margem padrão do body */
     padding: 0; /* Remover o padding padrão do body */
     height: 100vh; /* Definir altura para cobrir a altura da janela de visualização */
-    background-repeat: no-repeat;
 }
 
 
@@ -95,7 +94,7 @@ body {
 
 main {
     min-height: 100vh;
-    padding: 11.5rem 9% 3rem;
+    padding: 13rem 9% 3rem;
 }
 
 .main-container {
@@ -190,4 +189,72 @@ img {
     border-color: white;
 }
 
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 8rem;
+    padding-bottom: 6rem;
+}
+
+.azulClaro {
+    color: #47D4F4;
+}
+
+
+.head {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: white;
+}
+
+
+.sobreImg {
+    position: relative;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreImg img {
+    width: 90%;
+    border: .3rem solid #47D4F4;
+}
+
+.conteudoInicial {
+    text-align: center;
+}
+
+.conteudoInicial h3 {
+    font-size: 2.6rem;
+    color: white;
+}
+
+.conteudoInicial p {
+    font-size:  1.5rem;
+    color: white;
+}
+
+#btn {
+    display: inline-block;
+    width: 15rem;
+}
+
+
+
+.projetosMaisTecnologia  {
+    border: solid 2px red;
+}
+
+.tecnologiasUsadas { 
+    border: solid 2px green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
