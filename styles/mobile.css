@@ -245,23 +245,27 @@ main {
 
 .flex-wrap {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    /*Mudar para WRAP conforme for adicionando projetos. */
+    margin-bottom: 7.5rem;
 }
 
-.projetosMaisTecnologia  {
-    border: solid 2px red;
-
-}
 
 .fotoProjetos {
     width: 100%;
     max-width: 250px;
     height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.fotoProjetos:hover {
+    transform: scale(0.9);
 }
 
 .tecnologiasUsadas { 
     height: 2.5rem;
-    border: solid 2px green;
     display: flex;
     justify-content: center;
     align-items: center;
