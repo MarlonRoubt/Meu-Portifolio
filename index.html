@@ -14,15 +14,16 @@
 <body>
 
     <header class="header">
-        <a href="#" class="logo">ROUBT, Marlon.</a>
+        <a href="#" class="logo" id="top">ROUBT, Marlon.</a>
         
         <div id="menu"><box-icon name='menu'></box-icon></div>
+        <div id="backToTop"></div>
 
         <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">SOBRE</a>
-            <a href="./projetos.html">PROJETOS</a>
-            <a href="#">CONTATO</a>
+            <a href="#home">HOME</a>
+            <a href="#sobre">SOBRE</a>
+            <a href="#projetos">PROJETOS</a>
+            <a href="#contato">CONTATO</a>
         </nav>
 
         <div class="redesSociais">
@@ -72,10 +73,8 @@
             <div class="conteudoInicial">
                 <h3>Frontend Developer</h3>
 
-                <p>Estou migrando para a área de programação e estou atrás da primeira oportunidade de estágio</p>
-                <div class="caixaBotao" id="btn">
-                    <a href="" class="botao">Leia mais.</a>
-                </div>
+                <p>Me chamo Marlon, tenho 27 anos, estou cursando o 2° semestre de ADS e escolhi essa área para migrar. Estudando html e css, vi que gosto de fazer isso. Sou completamente ambicioso e determinado para conseguir aquilo que quero.</p>
+               
             </div>
         </section>
 
@@ -83,13 +82,13 @@
             <h2 class="head">PROJETOS</h2>
 
             <div class="flex-wrap">
-                <div class="projetosMaisTecnologia">
+                <div>
                     <div class="tecnologiasUsadas">
                         <box-icon type='logo' name='html5'></box-icon>
                         <box-icon name='css3' type='logo' ></box-icon>
                         <box-icon name='javascript' type='logo' ></box-icon>
                     </div>
-                    <img src="" alt="">
+                    <img class="fotoProjetos" src="assets/imagens/Screenshot_20231003-220442.png" alt="">
                 </div>
             </div>
         </section>
@@ -116,7 +115,7 @@
                     </div>
                     <div class="campDeEntrada">
                         <label for="texto">
-                          <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Deixe sua mensagen :D">
+                          <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Deixe sua mensagem">
 
                           </textarea>
                         </label>
@@ -128,6 +127,16 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footerText">
+            <p>&copy; 2023. ROUBT, Marlon | Todos os direitos reservados</p>
+        </div>
+
+        <div class="iconT">
+            <a href="#backToTop"><box-icon class="box-icon" name='up-arrow-alt' flip='horizontal' ></box-icon></a>
+        </div>
+    </footer>
 
 
     <script src="scripts/main.js"></script>
